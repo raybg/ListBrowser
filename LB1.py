@@ -12,14 +12,17 @@ lb1 = lb.replace("|",",")
 
 f= open("C:\\Users\\g.bhargavi\\Desktop\\owtest13.txt", "w+")
 f.write(lb1)
-c = shutil.copyfile("C:\\Users\\g.bhargavi\\Desktop\\owtest13.txt","C:\\Users\\g.bhargavi\\Desktop\\owtest13.csv")
+shutil.copyfile("C:\\Users\\g.bhargavi\\Desktop\\owtest13.txt","C:\\Users\\g.bhargavi\\Desktop\\owtest13.csv")
 
 lb2 = lb1.replace("@",",")
 f = open("C:\\Users\\g.bhargavi\\Desktop\\owtest14.txt", "w+")
 f.write(lb2)
-d = shutil.copyfile("C:\\Users\\g.bhargavi\\Desktop\\owtest14.txt","C:\\Users\\g.bhargavi\\Desktop\\owtest14.csv")
+shutil.copyfile("C:\\Users\\g.bhargavi\\Desktop\\owtest14.txt","C:\\Users\\g.bhargavi\\Desktop\\owtest14.csv")
 
-
+#f=open("C:\\Users\\g.bhargavi\\Desktop\\owtest14.csv","w+")
+#f.write()
+#f.to_text("C:\\Users\\g.bhargavi\\Desktop\\owtest15.txt",index=False, sep=",")
+ 
 
 
 #lb3 = lb2.replace(";",",")
